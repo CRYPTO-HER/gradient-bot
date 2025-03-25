@@ -49,3 +49,67 @@ We’ve released software for farming Gradient:
 - - [NodePay](https://github.com/CRYPTO-HER/nodepay-bot)
 
 Invite your friends and colleagues to join! 🚀
+
+
+# How to use? Documentation
+### Installation
+**Software will automatically install in: C:\Program Files (x86)\Gradient_private_v1.8**
+
+**You cannot change the location directory of the software**
+
+### Setting Up CAPTCHA Key
+* In the `Data` folder, open the `config.ini` file.
+* Specify the CAPTCHA-solving service `api key` for [2captcha.com](https://2captcha.com/?from=24925001).
+
+### Adding Email Accounts
+* In the `Data` folder, open the `emails.txt` file.
+* Add email accounts in this format: `mail:pass`. 
+* If you have email accounts with email forwarding function, add them in this format: `fakemail:mail:pass`.
+* Ensure the email accounts support `IMAP`; otherwise, verification will fail.
+
+### Setting IMAPS
+* In the `Data` folder, open the `imaps.txt` file.
+* Add the IMAP of the emails you use in this format: `email domain|imap`. For example: `desedumail.com|imap.firstmail.ltd`, where `desedumail.com` is an email domain, and `imap.firstmail.ltd` - its IMAP.
+
+### Adding Proxies
+* In the `Data` folder, open the `proxy.txt` file.
+* Add proxies in this format: `login:password@ip:port` , one per line.
+
+### Adding Referral Codes
+* In the `Data` folder, open `referalCodes.txt` file.
+* Add referral codes, one per line.
+
+### Account Registration
+* Use option **Registration** to register new accounts.
+* Failed registrations will be saved in the `reg_bads.txt` file.
+
+### Email Verification
+* Use option **Email Verification** to verify the emails of new accounts.
+
+### Old Accounts Authorization
+* In the `Data` folder, add your old accounts to the `accs_auth.txt` file in this format: `login:pass|mail:pass`.
+* Use option **Authorization** to authorize your old accounts.
+
+### Creating Nodes
+* The **Create nodes** option allows to create any number of nodes.
+
+### Preparing Accounts for Farming
+* Ensure `proxy.txt` contains proxies in the required format.
+* Start the farming process.
+
+### Collecting statistics
+* The **Collect statistics** module collects and analyzes account activity data, saving it in the `statistics_goods.txt` file.
+
+### Saving accounts to file
+* The **Save accounts to file** module saves all existing accounts in the `accounts.txt` file.
+
+### Removing unverified accounts
+* The **Remove unverified accounts** module deletes accounts with failed verification.
+
+# 🔗 Contacts
+- 📩 Telegram chat: https://t.me/+C_3h-RZe55xjZTli
+- 📩 Telegram channel: https://t.me/CRYPT0_HER
+- 📩 Developer: https://t.me/CRYPT0HER
+
+# Residential Proxy $1.5/GB
+- 📩 Telegram Bot: [https://t.me/CRYPT0HER_proxysBot](http://t.me/CRYPT0HER_proxysBot?start=301567601)
